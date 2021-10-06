@@ -192,10 +192,10 @@ Successful server response is returned with `200 OK` code and contains:
     ],
     "accept_incomplete_resumes": false,
     "professional_roles": [
-      {
-        "id": "96",
-        "name": "Software Development"
-      }
+        {
+            "id": "96",
+            "name": "Software Development"
+        }
     ]
 }
 ```
@@ -334,7 +334,7 @@ url | string | address of the page containing the interview
 
 Name | Type | Description
 -----|-----|---------
-id | string | Field Id
+id | string | Professional role ID
 name | string | Name of field
 
 <a name="vacancy-fields-applicant"></a>
