@@ -207,7 +207,13 @@
             "name": "Можно начинать работать после 16-00"
         }
     ],
-    "accept_temporary": false
+    "accept_temporary": false,
+    "professional_roles": [
+      {
+        "id": "96",
+        "name": "Программист, разработчик"
+      }
+    ]
 }
 ```
 
@@ -286,7 +292,7 @@ working_time_modes | object или null | Режимы времени работ
 working_time_modes.id | string | Идентификатор режима времени работы
 working_time_modes.name | string | Название режима времени работы
 accept_temporary | boolean или null | Указание, что вакансия доступна для соискателей с временным трудоустройством
-
+professional_roles | array | Массив [объектов профролей](#professional-role). Список может быть пустым.
 
 <a name="contacts"></a>
 #### Контактная информация
@@ -341,6 +347,14 @@ javascript. При этом:
 ---- | --- | --------
 id | string | идентификатор интервью
 url | string | адрес страницы, содержащей интервью
+
+<a name="professional-role"></a>
+#### Профроль
+
+Имя | Тип | Описание
+-----|-----|---------
+id | string | Идентификатор поля
+name | string | Название поля
 
 
 <a name="vacancy-fields-applicant"></a>
