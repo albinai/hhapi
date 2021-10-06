@@ -331,11 +331,13 @@ url | string | address of the page containing the interview
 
 <a name="professional-role"></a>
 #### Professional role
+Professional roles will replace specializations.
+Currently, professional roles and specializations are used in parallel for backward compatibility.
 
 Name | Type | Description
 -----|-----|---------
 id | string | Professional role ID
-name | string | Name of field
+name | string | Name of professional role
 
 <a name="vacancy-fields-applicant"></a>
 #### Additional vacancy fields for candidates
