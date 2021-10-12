@@ -119,8 +119,8 @@ you can additionally specify the following query-arguments:
 * `ignore_duplicates=true` - force [adding duplicate](#creation-ignore-duplicates).
 * `with_professional_roles=true` - force vacancy publication with professional roles instead of specializations
 
-with argument `with_professional_roles=true` field `specializations` is not required, field `professional_roles` is required
-
+with argument `with_professional_roles=true` field `specializations` is not required and is ignored, field `professional_roles` is required
+without this argument field `professional_roles` is not required and is ignored
 ### General information
 
 As the response body, send
