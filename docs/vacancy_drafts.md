@@ -69,8 +69,10 @@
         }
       ],
       "auto_publication": null,
-      "active_suitable_applicants": 100,
-      "total_suitable_applicants": 1000
+      "suitable_applicants": {
+        "active":100,
+        "total":1000
+      }
     },
     {
       "areas": [
@@ -93,8 +95,10 @@
         "bill_uid": "4011054/3",
         "cart_id": "5967030"
       },
-      "active_suitable_applicants": 100,
-      "total_suitable_applicants": 1000
+      "suitable_applicants": {
+        "active":100,
+        "total":1000
+      }
     }
   ],
   "found": 2,
@@ -130,8 +134,7 @@ required_publications | array или null | Массив [объектов](#pub
 last_change_time | string или null | Время изменения черновика (в формате [ISO 8601](../general.md#date-format) с точностью до секунды `YYYY-MM-DDThh:mm:ss±hhmm`)
 publication_ready | boolean  | Готовность черновика к публикации
 auto_publication | object или null | Состояние автопубликации. [Объект](#auto_publication_state) при активной автопубликации, иначе null.
-active_suitable_applicants | number | Количество подходящих активных соискателей
-total_suitable_applicants | number | Общее количество подходящих соискателей на вакансию
+suitable_applicants | object | [Объект](#suitable_applicants) с количеством подходящих соискателей
 
 <a name="auto_publication_state"></a>
 Активная автопубликация означает что при поступлении оплаты по счету, номер которого указанн в объекте, произойдёт
@@ -151,6 +154,14 @@ cart_id | string | Идентификатор заказа
 publication_type | string | Тип публикации (справочник [vacancy_billing_type](https://github.com/hhru/api/blob/master/docs/dictionaries.md))
 vacancy_type | string | Тип вакансии (справочник [vacancy_type](dictionaries.md))
 count | number | Количество
+
+<a name="suitable_applicants"></a>
+Количество подходящих соискателей
+
+Имя | Тип | Описание
+---- | --- | --------
+active_suitable_applicants | number | Количество подходящих активных соискателей
+total_suitable_applicants | number | Общее количество подходящих соискателей на вакансию
 
 ### Ошибки
 
