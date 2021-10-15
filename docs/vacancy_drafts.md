@@ -68,7 +68,9 @@
           "count": 3
         }
       ],
-      "auto_publication": null
+      "auto_publication": null,
+      "active_suitable_applicants": 100,
+      "total_suitable_applicants": 1000
     },
     {
       "areas": [
@@ -90,7 +92,9 @@
       "auto_publication": {
         "bill_uid": "4011054/3",
         "cart_id": "5967030"
-      }
+      },
+      "active_suitable_applicants": 100,
+      "total_suitable_applicants": 1000
     }
   ],
   "found": 2,
@@ -126,6 +130,8 @@ required_publications | array или null | Массив [объектов](#pub
 last_change_time | string или null | Время изменения черновика (в формате [ISO 8601](../general.md#date-format) с точностью до секунды `YYYY-MM-DDThh:mm:ss±hhmm`)
 publication_ready | boolean  | Готовность черновика к публикации
 auto_publication | object или null | Состояние автопубликации. [Объект](#auto_publication_state) при активной автопубликации, иначе null.
+active_suitable_applicants | number | Количество подходящих активных соискателей
+total_suitable_applicants | number | Общее количество подходящих соискателей на вакансию
 
 <a name="auto_publication_state"></a>
 Активная автопубликация означает что при поступлении оплаты по счету, номер которого указанн в объекте, произойдёт
