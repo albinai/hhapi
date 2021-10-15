@@ -134,7 +134,7 @@ required_publications | array или null | Массив [объектов](#pub
 last_change_time | string или null | Время изменения черновика (в формате [ISO 8601](../general.md#date-format) с точностью до секунды `YYYY-MM-DDThh:mm:ss±hhmm`)
 publication_ready | boolean  | Готовность черновика к публикации
 auto_publication | object или null | Состояние автопубликации. [Объект](#auto_publication_state) при активной автопубликации, иначе null.
-suitable_applicants | object | [Объект](#suitable_applicants) с количеством подходящих соискателей
+suitable_applicants | object или null | [Объект](#suitable_applicants) с количеством подходящих соискателей, null если ждет оплаты или будет опубликован отложено
 
 <a name="auto_publication_state"></a>
 Активная автопубликация означает что при поступлении оплаты по счету, номер которого указанн в объекте, произойдёт
