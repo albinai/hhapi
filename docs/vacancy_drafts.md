@@ -70,8 +70,8 @@
       ],
       "auto_publication": null,
       "suitable_applicants": {
-        "active":100,
-        "total":1000
+        "active": 100,
+        "total": 1000
       }
     },
     {
@@ -96,8 +96,8 @@
         "cart_id": "5967030"
       },
       "suitable_applicants": {
-        "active":100,
-        "total":1000
+        "active": 100,
+        "total": 1000
       }
     }
   ],
