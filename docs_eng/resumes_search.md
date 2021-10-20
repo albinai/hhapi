@@ -1,7 +1,6 @@
 # Resumes for employers
 
-* [Search for a CV](#search)
-    * [Approve your application for CV search](#resume-search-request)
+* Search for a CV
     * [Request and acceptable parameters](#search-params)
     * [Response](#search-results)
 
@@ -9,55 +8,6 @@ See also:
 
 * [View a CV](https://github.com/hhru/api/blob/master/docs_eng/resumes.md#item)
 * [Saved CV search](https://github.com/hhru/api/blob/master/docs_eng/saved_search.md#resumes-saved-search-list)
-
-
-<a name="search"></a>
-## Search for a CV
-
-
-<a name="resume-search-request"></a>
-### Approve your application for CV search
-
-**CV search is available only when the authorized user is an employer and**
-**the application is in the approved list.**
-
-To include your application in this list, send a request in any format to
-<api@hh.ru>. In the letter, describe:
-
-* your application, its purpose and functions,
-* Client ID of your application (you can get it
-  [in your account](https://dev.hh.ru/admin)),
-* the reasons why you need access to CV search, how you are going to use CV
-  search results,
-* if possible, attach models/screenshots/prototypes to your letter.
-
-Inclusion in the list is free of charge. All the other API capabilities, except
-CV search, are available immediately without the need of approval.
-
-Note to paragraph 1.3, 1.5 & 1.6 in
-[API service Terms of Use](https://dev.hh.ru/admin/developer_agreement):
-
-> "1.3. HeadHunter may, without giving the reasons, refuse any Application
-> Developer to register any its Application on the Web-site, to provide API key
-> and, therefore, further use the Service without and compensation or
-> reimbursement."
-
-...
-
-> "1.5. The End user of the Application can be both the legal entities and
-> individuals who are employers and applicants. If the End Users of the
-> Application are legal entities and individuals who are employers, the
-> aforementioned persons intitled to use the Service only for the purpose of
-> attracting potential employees and their subsequent employment directly to
-> such legal entities and individuals."
-
-> "1.6. If HeadHunter has any grounds to believe that the Application Developer
-> or any End User of the Application may potentially use the Service not only
-> for the purposes of potential employees and their subsequent employment,
-> HeadHunter may, at any time, refuse the Application Developer to use the
-> Service (including at the stage of registration) without any compensation or
-> reimbursement.
-
 
 <a name="search-params"></a>
 ## Request and acceptable parameters

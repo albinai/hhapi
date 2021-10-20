@@ -70,11 +70,6 @@ name | type | comment
 count | int | number of saved search results
 url | string | reference to saved search results is available if access to CV search is enabled
 
-Note that in order to get autosearch results (CV list)
-the application used to authorize the employer should
-[pass the procedure on granting access to CV](resumes_search.md#resume-search-request).
-
-
 <a name="resumes-saved-search-item"></a>
 # Getting single saved CV search
 
